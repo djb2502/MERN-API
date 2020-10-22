@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #67b35c;
+  padding: 10px 40px;
+  .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  .social-wrapper {
+    display: flex;
+
+    .icon-wrapper {
+      padding: 5px;
+      margin: 0px 10px;
+    }
+    .icon-socmed {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+    }
+  }
+}
+
+.copywright {
+  background-color: #569e4b;
+  padding: 10px 0px;
+  p {
+    font-size: 14px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+  }
+}

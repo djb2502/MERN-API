@@ -1,0 +1,19 @@
+{
+	"name": "node",
+	"version": "1.0.0",
+	"description": "Node Js Project (MERN stack)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"author": "Muhammad Mudlin",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"git": "^0.1.5"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
